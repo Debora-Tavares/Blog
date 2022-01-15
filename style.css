@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(231, 176, 197);
+    font-family: Arial, Helvetica, sans-serif;
+}
+section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+img {
+    width: 30%;
+    border: #fff solid 4px;
+}
+p {
+    background-color: #fff;
+    color: #993399;
+    border: #000 solid 1px;
+    width: 40vw;
+    padding: 10px;
+}
+h1, h2 {
+    color: #993399;
+    text-align: center;
+}
+@media screen and (max-width: 999px) {
+    section {
+        flex-direction: column;
+    }
+    p {
+        width: 90vw;
+    }
+    img {
+        width: 60%;
+    }
+}
